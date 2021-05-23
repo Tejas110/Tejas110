@@ -1,4 +1,5 @@
-1.score = input("Enter Score: ")
+
+score = input("Enter Score: ")
 s =  float(score)
 x = 'Error'
 if s >= 0.9:
@@ -13,4 +14,5 @@ elif s < .6:
 	x ='F'
 else:
 	x ="Out of Range"
-print 
+
+  Print(x)
